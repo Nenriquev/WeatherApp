@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+.form-control {
+  outline-color: red;
+}
+
+
+.App-header {
+  min-height: 100vh;
+  min-width: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: background-image 3s;
+
+}
+
+.bg01d{
+ 
+  background-image: url(components/weatherInfo/icons/backgrounds/Sunny.jpg); 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg01n{
+ 
+  background-image: url(components/weatherInfo/icons/backgrounds/Night.jpg); 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg04d, .bg04n{
+
+  background-image: url(components/weatherInfo/icons/backgrounds/Cloudy.jpg); 
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+.bg011d, .bg11n{
+ 
+  background-image: url(components/weatherInfo/icons/backgrounds/Thunderstorm.jpg); 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg09d, .bg09n, .bg10d, .bg10n{
+ 
+  background-image: url(components/weatherInfo/icons/backgrounds/Rain.webp); 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.b13d, .bg13n{
+
+  background-image: url(components/weatherInfo/icons/backgrounds/Snow.jpg); 
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}

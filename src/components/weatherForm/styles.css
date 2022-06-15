@@ -1,0 +1,233 @@
+.backgroundbox {
+  background-color: rgba(35, 101, 117, 0.801);
+  box-shadow: -1px -1px 39px 4px black;
+  border-radius: 3%;
+
+}
+
+.shadowp {
+  box-shadow: 0px 0px 5px rgb(20, 71, 28);
+}
+
+.shadowperror {
+  box-shadow: 0px 0px 5px rgb(248, 7, 7)
+}
+
+Button:hover {
+
+  transform: scale(1.02);
+  transition-duration: 2s;
+}
+
+.flag {
+
+  width: 40px;
+  height: 25px;
+  box-shadow: 0px 1px 15px rgb(0, 0, 0);
+
+}
+
+.title {
+  position: absolute;
+  top: 10%;
+  text-shadow: 2px 2px 6px #000000;
+}
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 1000px)
+and (orientation:landscape) {
+  .title{
+  position: absolute;
+  top: 3%;
+  text-shadow: 2px 2px 6px #000000;
+  }
+}
+
+.iconcolor {
+  color: rgb(255, 255, 255);
+}
+
+.iconcolor:hover {
+  transform: scale(1.02);
+  transition-duration: 2s;
+  
+}
+.home {
+    position: absolute;
+    top: 20px;
+    left: 5%;
+    width: 50px;
+    height: 50px;
+}
+
+.temp {
+  font-size: 55px;
+  font-weight: 600;
+  position: fixed;
+  top: 10%;
+  align-items: center;
+  padding-left: 33px;
+  
+}
+
+.forecastcard {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  bottom: 4.375rem;
+  width: 13.43rem;
+  height: 13.125rem;
+  background: rgba(0, 0, 0, 0.537);
+  backdrop-filter: blur(15px);
+  border-radius: 30px;
+  box-shadow: 0px 1px 15px rgb(0, 0, 0);
+}
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 1000px)
+and (orientation:landscape) {
+  .forecastcard {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    bottom: 1rem;
+    width: 13.43rem;
+    height: 11rem;
+    background: rgba(0, 0, 0, 0.537);
+    backdrop-filter: blur(15px);
+    border-radius: 30px;
+    box-shadow: 0px 1px 15px rgb(0, 0, 0);}
+}
+
+.description {
+  position: relative;
+  text-align: center;
+  top: 43%;
+
+}
+
+.feel {
+  position: fixed;
+  top: 60%;
+  left: 10%;
+}
+
+.humidity {
+  position: fixed;
+  top: 60%;
+  left: 55%;
+
+}
+
+.windspeed {
+  position: fixed;
+  top: 75%;
+  left: 10%;
+}
+
+.pop {
+  position: fixed;
+  top: 75%;
+  left: 55%;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  width: 6.25rem;
+  height: 10rem;
+  margin: 0.938rem;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.537);
+  backdrop-filter: blur(15px);
+  border-radius: 30px;
+  box-shadow: 0px 1px 15px rgb(0, 0, 0);
+}
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 1000px)
+and (orientation:landscape) {
+  .card {
+  display: flex;
+  justify-content: center;
+  width: 6.25rem;
+  height: 7.5rem;
+  margin: 0.938rem;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.537);
+  backdrop-filter: blur(15px);
+  border-radius: 30px;
+  box-shadow: 0px 1px 15px rgb(0, 0, 0);
+    }
+}
+
+
+
+.carrousel{
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  left: 0%;
+  top: 60%;
+  width: 100%;
+  
+}
+
+.card-day {
+ position: fixed;
+ top: 10%;
+}
+
+.forecasttemp {
+  position: fixed;
+  top: 35%;
+  left: 15%;
+
+}
+
+.svgicon svg {
+  position: fixed;
+  top: 15%;
+  width: 60%;
+  height: 60%;
+  left: 50%;
+
+}
+
+.upward{
+  font-size: small;
+  position: fixed;
+  top: 65%;
+  left: 10%;
+}
+
+.upward svg{
+  color: red;
+  width: 15px;
+  height: 15px;
+}
+
+.downward{
+  font-size: small;
+  position: fixed;
+  top: 65%;
+  left: 55%;
+}
+.downward svg{
+  color: rgb(0, 136, 255);
+  width: 15px;
+  height: 15px;
+}
+
+.forecastpop {
+  font-size: small;
+  position: fixed;
+  top: 80%;
+  left: 25%;
+}
+
+.forecastpop svg {
+  width: 15px;
+  height: 15px;
+}
+

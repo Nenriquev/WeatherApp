@@ -1,6 +1,6 @@
 import './App.css';
 import {useState} from "react";
-import WeatherForm from "./components/weatherForm/formsearch";
+import WeatherForm from "./components/weatherForm/formSearch";
 import WeatherInfo from './components/weatherInfo/weatherInfo';
 import { useTransition, animated } from 'react-spring';
 

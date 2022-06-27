@@ -20,7 +20,6 @@ import SvgComponent from "./icons/icons";
 
 const WeatherInfo = ({countryWeather, change}) => {
 
-  console.log(countryWeather)
 
   const code = countryWeather?.city?.country?.toLowerCase();
   const ico = countryWeather?.list[0]?.weather[0]?.icon;
